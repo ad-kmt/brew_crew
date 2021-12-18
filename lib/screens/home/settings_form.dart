@@ -20,8 +20,8 @@ class _SettingsFormState extends State<SettingsForm> {
 
   // form values
   String? _currentName;
-  String? _currentSugar = '0';
-  int? _currentStrength = 100;
+  String? _currentSugar;
+  int? _currentStrength;
 
   @override
   Widget build(BuildContext context) {
