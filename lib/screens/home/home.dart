@@ -9,7 +9,6 @@ import 'package:provider/provider.dart';
 
 class Home extends StatelessWidget {
   final AuthService _auth = AuthService();
-
   Home({Key? key}) : super(key: key);
 
   @override
